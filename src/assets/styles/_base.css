@@ -508,7 +508,7 @@ section .section-header h1 {
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
 	padding-left: 0.75em;
-	font-family: "Titillium Web", cursive;
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	display: flex;
 	align-items: center;
@@ -613,14 +613,14 @@ section .section-header h1 {
 	text-transform: uppercase;
 }
 
-.event .name h2 {
-	line-height: 1.5em;
-	font-size: 18px;
-	font-family: "Titillium Web", sans-serif;
-	letter-spacing: 0.5px;
-	color: var(--primary-color);
-	text-transform: uppercase;
-}
+	.event .name h2 {
+		line-height: 1.5em;
+		font-size: 18px;
+		font-family: "Roboto", sans-serif;
+		letter-spacing: 0.5px;
+		color: var(--primary-color);
+		text-transform: uppercase;
+	}
 
 .event .preview {
 	line-height: 1.5em;
@@ -666,22 +666,22 @@ section .section-header h1 {
 	text-transform: uppercase;
 }
 
-.reserve .name h2 {
-	line-height: 1.5em;
-	font-size: 18px;
-	font-family: "Titillium Web", sans-serif;
-	letter-spacing: 0.5px;
-	color: var(--primary-color);
-	text-transform: uppercase;
-}
+	.reserve .name h2 {
+		line-height: 1.5em;
+		font-size: 18px;
+		font-family: "Roboto", sans-serif;
+		letter-spacing: 0.5px;
+		color: var(--primary-color);
+		text-transform: uppercase;
+	}
 
-.reserve .description {
-	font-family: "Titillium Web", cursive;
-	font-weight: 400;
-	color: var(--text-markdown-p);
-	margin: 0.2em;
-	text-align: left;
-}
+	.reserve .description {
+		font-family: "Roboto", sans-serif;
+		font-weight: 400;
+		color: var(--text-markdown-p);
+		margin: 0.2em;
+		text-align: left;
+	}
 
 .reserve .pilot {
 	display: flex;
@@ -747,15 +747,15 @@ section .section-header h1 {
 	color: var(--text-pilot-header);
 }
 
-.pilot-wrapper h2 {
-	font-size: 18px;
-	font-weight: 700;
-	font-family: "Titillium Web", sans-serif;
-	line-height: 1.5em;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-	color: var(--text-pilot-value);
-}
+	.pilot-wrapper h2 {
+		font-size: 18px;
+		font-weight: 700;
+		font-family: "Roboto", sans-serif;
+		line-height: 1.5em;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		color: var(--text-pilot-value);
+	}
 
 .pilot-wrapper .pilot-code {
 	font-family: "Inconsolata", monospace;
@@ -832,7 +832,7 @@ section .section-header h1 {
 	font-size: 18px;
 	margin: 0%;
 	color: var(--text-location);
-	font-family: "Titillium Web", cursive;
+	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
@@ -889,15 +889,15 @@ section .section-header h1 {
 	height: 48px;
 }
 
-.pilot-wrapper .mech-column .role {
-	font-size: 18px;
-	font-weight: 700;
-	font-family: "Titillium Web", sans-serif;
-	line-height: 1.5em;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-	color: var(--text-pilot-value);
-}
+	.pilot-wrapper .mech-column .role {
+		font-size: 18px;
+		font-weight: 700;
+		font-family: "Roboto", sans-serif;
+		line-height: 1.5em;
+		letter-spacing: 0.5px;
+		text-transform: uppercase;
+		color: var(--text-pilot-value);
+	}
 
 .pilot-wrapper:last-child {
 	border-bottom: none;
@@ -1141,7 +1141,7 @@ section .section-header h1 {
 .mech h2 {
 	font-size: 18px;
 	font-weight: 700;
-	font-family: "Titillium Web", sans-serif;
+	font-family: "Roboto", sans-serif;
 	line-height: 1.5em;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
@@ -1386,7 +1386,7 @@ section .section-header h1 {
 	font-size: 18px;
 	margin: 0%;
 	color: var(--text-location);
-	font-family: "Titillium Web", cursive;
+	font-family: "Roboto", sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 0.5px;
@@ -1412,7 +1412,7 @@ section .section-header h1 {
 }
 
 .clock-summary {
-	font-family: "Titillium Web", cursive;
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	color: var(--text-markdown-p);
 	margin: 0.2em;
@@ -1428,7 +1428,7 @@ div.markdown {
 	padding-right: 1em;
 	font-size: 16px;
 	margin: 0%;
-	font-family: "Titillium Web", cursive;
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	color: var(--text-markdown-p);
 	border-bottom: 1px solid var(--primary-color);
