@@ -16,10 +16,11 @@
 	/* Primary Colors */
 	--primary-color: #721975;
 	--secondary-color: #161c1dcc;
+	--highlight-text: #9d45ca;
 	--highlight-hover: rgba(255, 255, 255, 0.3);
 	--highlight-active: rgba(255, 255, 255, 0.1);
 	/* Primary Text */
-	--text-headers: rgba(0, 0, 0, 1);
+	--text-headers: rgba(255, 255, 255, 1);
 	--text-location: rgba(255, 255, 255, 0.87);
 	/* Location Information */
 	--location-separator: rgba(255, 255, 255, 0.24);
@@ -109,6 +110,7 @@ header {
 		font-weight: 800;
 		text-transform: uppercase;
 		letter-spacing: 0.15em;
+		color: var(--text-location)
 	}
 
 	.title #title-subheader {
@@ -120,6 +122,7 @@ header {
 		text-transform: uppercase;
 		letter-spacing: 0.12em;
 		padding-left: 0.32em;
+		color: var(--text-location)
 	}
 
 	.title #subtitle-header {
@@ -130,22 +133,24 @@ header {
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
+		color: var(--text-location)
 	}
 
-.title #subtitle-subheader {
-	font-size: 20px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Roboto", sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 0.02em;
-}
+	.title #subtitle-subheader {
+		font-size: 20px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Roboto", sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.02em;
+		color: var(--text-location)
+	}
 
 .logo {
 	width: 60px;
 	height: 60px;
-	margin-left: 15px;
+	margin-left: 12px;
 }
 
 .title-row {
@@ -315,7 +320,7 @@ div.location-info {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background: white;
+	background: black;
 	margin-bottom: 1em;
 	text-decoration: none;
 }
@@ -401,6 +406,7 @@ section .section-header {
 	display: inline-flex;
 	gap: 15px;
 	padding-left: 16px;
+	color: var(--text-location)
 }
 
 
@@ -618,7 +624,7 @@ section .section-header h1 {
 		font-size: 18px;
 		font-family: "Roboto", sans-serif;
 		letter-spacing: 0.5px;
-		color: var(--primary-color);
+		color: var(--highlight-text);
 		text-transform: uppercase;
 	}
 
@@ -641,7 +647,7 @@ section .section-header h1 {
 	font-size: 16px;
 	font-weight: 600;
 	font-family: "Roboto", sans-serif;
-	color: var(--primary-color);
+	color: var(--highlight-text);
 	text-decoration: underline;
 	cursor: pointer;
 }
@@ -671,7 +677,7 @@ section .section-header h1 {
 		font-size: 18px;
 		font-family: "Roboto", sans-serif;
 		letter-spacing: 0.5px;
-		color: var(--primary-color);
+		color: var(--text-location);
 		text-transform: uppercase;
 	}
 
@@ -1618,7 +1624,7 @@ div.markdown ol li {
 }
 
 .pilot-identity .stat-text, .pilot-identity .accent--text{
-	color: var(--primary-color)
+	color: var(--highlight-text)
 }
 
 .pilot-identity .chip-container {
@@ -1626,13 +1632,13 @@ div.markdown ol li {
 }
 
 .pilot-identity .chip {
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--highlight-text);
   padding: 4px;
   margin: 4px;
   line-height: 16px;
   border-radius: 5px;
   display: inline-block;
-  color: var(--primary-color);
+  color: var(--highlight-text);
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;

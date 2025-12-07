@@ -28,7 +28,7 @@
 				<img src="/icons/squad.svg" />
 				<h1>Reserves</h1>
 			</div>
-			<div class="section-content-container">
+			<div class="section-content-container">c
 				<div class="reserves-list-container">
 					<Reserve v-for="item in reserves" :key="item.name" :reserve="item" :pilots="pilots" />
 				</div>
@@ -109,16 +109,26 @@ export default {
 		this.setAnimate();
 		this.setClockAnimateDelay();
 	},
-	beforeUpdate() {
-		// initial set
-		this.selectMission(this.missionSlug);
-	},
+	//beforeUpdate() {
+	//	// initial set
+	//	this.selectMission(this.missionSlug);
+	//},
 	mounted() {
 		// need to set on re-mount
 		if (this.missions.length > 0) {
 			this.selectMission(this.missions[0].slug);
 		}
 	},
+    watch: {
+        missions: {
+            immediate: true,
+            handler(newMissions) {
+                if (newMissions.length > 0 && !this.missionMarkdown) {
+                    this.selectMission(newMissions[0].slug);
+                }
+            }
+        }
+    },
 	methods: {
 		selectMission(slug) {
 			this.missionSlug = slug;

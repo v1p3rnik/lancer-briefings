@@ -50,7 +50,7 @@ export default {
 		};
 	},
 	created() {
-		this.setTitleFavicon(Config.defaultTitle + " MISSION BRIEFING", Config.icon);
+		this.setTitleFavicon(Config.defaultTitle + " БРИФИНГ", Config.icon);
 		this.importMissions(import.meta.glob("@/assets/missions/*.md", { query: '?raw', import: 'default' }));
 		this.importEvents(import.meta.glob("@/assets/events/*.md", { query: '?raw', import: 'default' }));
 		this.importClocks(import.meta.glob("@/assets/clocks/*.json"));
@@ -128,7 +128,7 @@ export default {
 				this.pilots = [...this.pilots, pilot];
 				pilot.clocks.forEach(content => {
 					let clock = {};
-					clock["type"] = `Pilot Project // ${pilot.callsign}`;
+					clock["type"] = `Проект пилота // ${pilot.callsign}`;
 					clock["result"] = "";
 					clock["name"] = content.title;
 					clock["description"] = content.description;
