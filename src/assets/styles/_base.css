@@ -100,38 +100,38 @@ header {
 	font-size: 32px;
 	margin: 0%;
 	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
+	font-family: "Titillium Web";
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
 }
 
-.title #title-subheader {
-	font-size: 32px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 0.12em;
-	padding-left: 0.32em;
-}
+	.title #title-subheader {
+		font-size: 32px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Titillium Web";
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.12em;
+		padding-left: 0.32em;
+	}
 
-.title #subtitle-header {
-	font-size: 24px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 600;
-	text-transform: uppercase;
-	letter-spacing: 0.08em;
-}
+	.title #subtitle-header {
+		font-size: 24px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Titillium Web";
+		font-weight: 600;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+	}
 
 .title #subtitle-subheader {
 	font-size: 24px;
 	margin: 0%;
 	align-self: center;
-	font-family: "Titillium Web", cursive;
+	font-family: "Titillium Web";
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
