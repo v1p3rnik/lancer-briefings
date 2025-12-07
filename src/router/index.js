@@ -16,21 +16,21 @@ const routes = [
 		name: "Mission Status",
 		component: Status,
 		props: true,
-		meta: { title: `${DEFAULT_TITLE} MISSION STATUS` },
+		meta: { title: `${DEFAULT_TITLE} СТАТУС ЗАДАНИЯ` },
 	},
 	{
 		path: "/pilots",
 		name: "Pilots",
 		component: Pilots,
 		props: true,
-		meta: { title: `${DEFAULT_TITLE} PILOT ROSTER` },
+		meta: { title: `${DEFAULT_TITLE} НАШ ОТРЯД` },
 	},
 	{
 		path: "/events",
 		name: "Events",
 		component: Events,
 		props: true,
-		meta: { title: `${DEFAULT_TITLE} EVENTS LOG` },
+		meta: { title: `${DEFAULT_TITLE} ЖУРНАЛ СОБЫТИЙ` },
 	},
 ];
 
