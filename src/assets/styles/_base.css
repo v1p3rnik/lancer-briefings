@@ -101,15 +101,15 @@ header {
 	flex-direction: column;
 }
 
-.title #title-header {
-	font-size: 32px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.15em;
-}
+	.title #title-header {
+		font-size: 32px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.15em;
+	}
 
 	.title #title-subheader {
 		font-size: 32px;
@@ -126,7 +126,7 @@ header {
 		font-size: 24px;
 		margin: 0%;
 		align-self: center;
-		font-family: "Titillium Web";
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
 		font-weight: 600;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
@@ -136,7 +136,7 @@ header {
 	font-size: 24px;
 	margin: 0%;
 	align-self: center;
-	font-family: "Titillium Web";
+	font-family: "Titillium Web", "Roboto", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
@@ -227,7 +227,7 @@ div.location-info {
 	font-size: 18px;
 	margin: 0%;
 	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
+	font-family: "Big Shoulders Display", "Roboto", sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -415,7 +415,7 @@ section .section-header h1 {
 	font-size: 26px;
 	margin: 0%;
 	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
+	font-family: "Big Shoulders Display", "Roboto", sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -436,19 +436,19 @@ section .section-header h1 {
 	border-bottom: none;
 }
 
-.section-content-container h3 {
-	color: var(--primary-color);
-	font-size: 18px;
-	padding: 1em;
-	padding-bottom: 0px;
-	margin: 0%;
-	margin-bottom: 0.5em;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
+	.section-content-container h3 {
+		color: var(--primary-color);
+		font-size: 18px;
+		padding: 1em;
+		padding-bottom: 0px;
+		margin: 0%;
+		margin-bottom: 0.5em;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
 
 .mission-list-container {
 	height: 661px;
@@ -532,16 +532,16 @@ section .section-header h1 {
 	color: var(--text-mission-title);
 }
 
-.mission h2 {
-	font-size: 18px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	color: var(--text-mission-status);
-}
+	.mission h2 {
+		font-size: 18px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: var(--text-mission-status);
+	}
 
 .mission .status {
 	display: flex;
@@ -926,15 +926,15 @@ section .section-header h1 {
 	margin-top: -38px !important;
 }
 
-.grid-item div .section-header h1 {
-	font-size: 26px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
+	.grid-item div .section-header h1 {
+		font-size: 26px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
 
 .grid-item .rhombus-back {
 	transform: skew(0.785398rad) !important;
@@ -996,15 +996,15 @@ section .section-header h1 {
 	padding-left: 16px;
 	margin-top: -38px !important;
 }
-.pilot-modal div .section-header h1 {
-	font-size: 26px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
+	.pilot-modal div .section-header h1 {
+		font-size: 26px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
 .pilot-modal .rhombus-back {
 	transform: skew(0.785398rad) !important;
 	background-color: var(--primary-color);
@@ -1068,15 +1068,15 @@ section .section-header h1 {
 	margin-top: -38px !important;
 }
 
-.mech-modal div .section-header h1 {
-	font-size: 26px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
+	.mech-modal div .section-header h1 {
+		font-size: 26px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
 
 .mech-modal .rhombus-back {
 	transform: skew(0.785398rad) !important;
@@ -1198,15 +1198,15 @@ section .section-header h1 {
 	margin-top: -38px !important;
 }
 
-.event-modal div .section-header h1 {
-	font-size: 26px;
-	margin: 0%;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-}
+	.event-modal div .section-header h1 {
+		font-size: 26px;
+		margin: 0%;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+	}
 
 .event-modal .rhombus-back {
 	transform: skew(0.785398rad) !important;
@@ -1309,17 +1309,17 @@ section .section-header h1 {
 	color: var(--text-pilot-header);
 }
 
-.person h2 {
-	font-size: 18px;
-	margin: 0%;
-	margin-bottom: 0.25em;
-	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
-	font-weight: 800;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	color: var(--text-pilot-value);
-}
+	.person h2 {
+		font-size: 18px;
+		margin: 0%;
+		margin-bottom: 0.25em;
+		align-self: center;
+		font-family: "Big Shoulders Display", "Roboto", sans-serif;
+		font-weight: 800;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		color: var(--text-pilot-value);
+	}
 
 .person .code {
 	font-family: "Inconsolata", monospace;
@@ -1485,7 +1485,7 @@ div.markdown h2 {
 	margin: 0%;
 	margin-bottom: 1em;
 	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
+	font-family: "Big Shoulders Display", "Roboto", sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
@@ -1560,15 +1560,14 @@ div.markdown ol li {
 	font-size: 32px;
 	margin: 0%;
 	align-self: center;
-	font-family: "Big Shoulders Display", cursive;
+	font-family: "Big Shoulders Display", "Roboto", sans-serif;
 	font-weight: 800;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
-	padding:0.5em;
-	display:flex;
+	padding: 0.5em;
+	display: flex;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
-
 }
 .pilot-identity .col.grow-max {
 	flex-grow:100;
